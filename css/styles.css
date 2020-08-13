@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.col-lg-6 > h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 3%;
+}
+
+/* Navigation Bar */
+.navbar {
+  margin-bottom: 30px;
+  padding-left: 0px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  margin: 0 18px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Download Button */
+.dwnld-btn {
+  margin: 3% 3% 5% 0%;
+}
+
+/* Title-image */
+.title-img {
+  width: 45%;
+  margin: 0% 25% 0%;
+  position: absolute;
+  transform: rotate(25deg);
+}
+
+@media (max-width: 1210px) {
+  .title-img {
+    position: static;
+    margin: 25%;
+    transform: rotate(0deg);
+  }
+  @media (max-width: 992px) {
+    #title {
+      text-align: center;
+    }
+  }
+}
+
+/* Feature-Setion */
+#features {
+  padding: 3% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.row .col-lg-4 {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.col-lg-4 h3 {
+  font-weight: bold;
+}
+
+.fas {
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.fas:hover {
+  color: #ff4d69;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px 20px 0;
+}
+
+.carousel-control-prev {
+  padding: 0rem;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+#press img {
+  width: 15%;
+  margin: 30px 20px 70px;
+}
+
+.carousel-item {
+  padding: 10% 15% 5%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 5% 10%;
+}
+
+#pricing h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.card {
+  margin: 20px;
+}
+
+
+#cta {
+  padding: 5% 22% 3%;
+  text-align: center;
+  background-color: #FF4B67;
+  color: white;
+}
+
+.cta-text{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#footer{
+  text-align: center;
+  margin: 10px 0 100px;
+}
+
+.fa-envelope{
+  font-size: 1rem;
+  margin-bottom: 0rem;
+  color: #000;
+}
+
+#footer i{
+  margin: 25px 10px;
+}
+
+#footer p{
+  color:grey;
+}
