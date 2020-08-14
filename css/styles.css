@@ -1,21 +1,55 @@
+/* Webpage wide */
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
-
-.col-lg-6 > h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
+}
+
+
+/* Heading */
+.big-heading{
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
-.container-fluid {
-  padding: 3% 15% 3%;
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
+
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Section */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+  color: #000;
+}
+
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
 
 /* Navigation Bar */
 .navbar {
@@ -35,10 +69,12 @@ body {
   font-weight: 100;
 }
 
+
 /* Download Button */
 .dwnld-btn {
   margin: 3% 3% 5% 0%;
 }
+
 
 /* Title-image */
 .title-img {
@@ -61,44 +97,29 @@ body {
   }
 }
 
-/* Feature-Setion */
+
+/* Features*/
 #features {
-  padding: 3% 15%;
-  background-color: white;
   position: relative;
 }
 
-.row .col-lg-4 {
-  text-align: center;
-  padding: 40px 0;
-}
-
-.col-lg-4 h3 {
-  font-weight: bold;
-}
-
-.fas {
+.icon {
   color: #ef8172;
   font-size: 3rem;
   margin-bottom: 10px;
 }
 
-.fas:hover {
+.icon:hover {
   color: #ff4d69;
 }
 
-p {
-  color: #8f8f8f;
-}
 
+/* Testimonials */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: white;
 }
 
 .testimonial-text {
-  font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -109,12 +130,9 @@ p {
   margin: 20px 20px 0;
 }
 
-.carousel-control-prev {
-  padding: 0rem;
-}
 
+/* Press */
 #press {
-  text-align: center;
   background-color: #ef8172;
 }
 
@@ -123,53 +141,33 @@ p {
   margin: 30px 20px 70px;
 }
 
-.carousel-item {
-  padding: 10% 15% 5%;
-}
 
-#pricing {
-  text-align: center;
-  padding: 5% 10%;
-}
-
-#pricing h2 {
-  font-size: 2.5em;
-  font-weight: bold;
-}
-
+/* Pricing */
 .card {
   margin: 20px;
 }
 
-
-#cta {
-  padding: 5% 22% 3%;
-  text-align: center;
-  background-color: #FF4B67;
-  color: white;
-}
-
-.cta-text{
-  font-weight: bold;
-  font-size: 3rem;
+.price-text {
+  font-size: 2.5rem;
   line-height: 1.5;
 }
 
-#footer{
-  text-align: center;
-  margin: 10px 0 100px;
+/* Cta */
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
-.fa-envelope{
-  font-size: 1rem;
-  margin-bottom: 0rem;
-  color: #000;
-}
 
-#footer i{
+/* Footer */
+.social-icon {
   margin: 25px 10px;
 }
 
+.social-icon:hover {
+  color: aqua;
+}
+
 #footer p{
-  color:grey;
+  color: grey;
 }
